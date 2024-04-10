@@ -64,13 +64,7 @@ class User():
         """
         Returns the names of all houses as a comma-separated string.
         *This function is specifically designed to work with the houses attribute of a User class.
-        *It assumes that the house_list parameter contains house objects.
-
-        args:
-            house_list: A list of house objects, typically the `houses` attribute of a `User` instance.
-
-        Raises:
-            TypeError: If `house_list` doesn't contain house objects with houses attribute.
+        
         Returns:
             A comma-separated string containing the names of all houses.
         """
