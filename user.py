@@ -92,7 +92,6 @@ class User():
             else:
                 #Checks password match
                 if(new_password == new_password2):
-                    #Update password
                     self.password = sha256(new_password.encode()).hexdigest()
                     print("The user password has been successfully changed.")
                 else:
